@@ -12,6 +12,10 @@ df.select("*", concat("location",lit(" "),"country").alias("new column"))
 
 # COMMAND ----------
 
+df
+
+# COMMAND ----------
+
 ls
 
 # COMMAND ----------
